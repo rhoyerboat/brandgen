@@ -1,6 +1,8 @@
 ;; -*-scheme-*-
 
 ;; Alan Horkan 2004.  No copyright.  Public Domain.
+;;  - rhoyerboat 2019. No copyright. Public Domain.
+;;    changed calcs to establish guides on higher precision values
 
 (define (script-fu-guide-new-percent image drawable direction position)
   (let* (
@@ -34,7 +36,7 @@
   SF-DRAWABLE   "Input Drawable"   0
   SF-OPTION     _"Direction"       '(_"Horizontal"
                                      _"Vertical")
-  SF-ADJUSTMENT _"Position (in %)" '(50 0 100 1 10 0 1)
+  SF-ADJUSTMENT _"Position (in %)" '(50 0 100 1 10 4 1)
 )
 
 (script-fu-menu-register "script-fu-guide-new-percent"
