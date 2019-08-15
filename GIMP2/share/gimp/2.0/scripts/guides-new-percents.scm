@@ -1,6 +1,8 @@
 ;; -*-scheme-*-
 
 ;; Alan Horkan 2004.  No copyright.  Public Domain.
+;;  + rhoyerboat 2019. increased precision value on SF-ADJUSTMENT
+
 
 (define (script-fu-guide-new-percents image drawable direction position)
   (let* (
