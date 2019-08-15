@@ -1,7 +1,7 @@
 ;; -*-scheme-*-
 
 ;; Alan Horkan 2004.  No copyright.  Public Domain.
-;;  - rhoyerboat 2019. No copyright. Public Domain.
+;;  + rhoyerboat 2019. No copyright. Public Domain.
 ;;    changed calcs to establish guides on higher precision values
 
 (define (script-fu-guide-new-percent image drawable direction position)
