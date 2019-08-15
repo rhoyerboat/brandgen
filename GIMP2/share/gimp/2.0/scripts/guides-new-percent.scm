@@ -12,7 +12,7 @@
 
     (if (= direction 0)
       	(set! position (/ (* height position) 100))
-	      (set! position (/ (* width position) 100))
+	(set! position (/ (* width position) 100))
     )
 
     (if (= direction 0)
